@@ -46,3 +46,12 @@ browser.find_element_by_xpath('//button[@id="details-button"]').click()
 browser.find_element_by_id('proceed-link').click()
 data=browser.page_source
 data
+
+
+建议简单方法，使用pd.read_html()
+进一步写出遍历框架和解析
+融和
+保存本地文件
+df1.to_excel(r'C:\Users\熊俊\Desktop\铂熊AI数据库\统计局\统计局粗钢数据.xlsx')
+整合框架
+browser.quit()
